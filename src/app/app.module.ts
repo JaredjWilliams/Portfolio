@@ -8,13 +8,21 @@ import { FooterComponent } from './views/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 import {HttpClientModule} from "@angular/common/http";
 import {NgOptimizedImage} from "@angular/common";
+import { AboutComponent } from './views/about/about/about.component';
+import { ResumeComponent } from './views/resume/resume/resume.component';
+import { ProjectsComponent } from './views/projects/projects/projects.component';
+import { ErrorComponent } from './views/error/error/error.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    ResumeComponent,
+    ProjectsComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
