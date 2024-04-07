@@ -6,6 +6,10 @@
   border: 2px solid black;
 }
 
+.fit-screen {
+  height: 100vh;
+}
+
 
 
 .primary-background {

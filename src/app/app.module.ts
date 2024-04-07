@@ -9,7 +9,7 @@ import { HomeComponent } from './views/home/home.component';
 import {HttpClientModule} from "@angular/common/http";
 import {NgOptimizedImage} from "@angular/common";
 import { AboutComponent } from './views/about/about.component';
-import { ResumeComponent } from './views/resume/resume/resume.component';
+import { ResumeComponent } from './views/resume/resume.component';
 import { ProjectsComponent } from './views/projects/projects/projects.component';
 import { ErrorComponent } from './views/error/error.component';
 
