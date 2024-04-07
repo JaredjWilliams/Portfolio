@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {GitHubInfo} from "../models/GitHubInfo";
+
 
 @Injectable({
   providedIn: 'root'
@@ -10,8 +12,8 @@ export class HomeDataService {
     private http: HttpClient
   ) { }
 
-  getBio() {
-    return this.http.get('https://api.github.com/users/JaredjWilliams')
+  getGitHubInfo() {
+    return this.http.get<GitHubInfo>('https://api.github.com/users/JaredjWilliams')
   }
 
   getAvatar(url : string) {
