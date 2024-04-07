@@ -1,0 +1,5 @@
+.img-thumbnail {
+  border-color: var(--tertiary-color);
+  border-width: 5px;
+  padding: 0;
+}
