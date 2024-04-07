@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from "./views/home/home.component";
-import {AboutComponent} from "./views/about/about/about.component";
+import {AboutComponent} from "./views/about/about.component";
 import {ProjectsComponent} from "./views/projects/projects/projects.component";
 import {ResumeComponent} from "./views/resume/resume/resume.component";
-import {ErrorComponent} from "./views/error/error/error.component";
+import {ErrorComponent} from "./views/error/error.component";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },

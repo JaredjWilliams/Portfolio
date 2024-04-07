@@ -1,2 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 @import url(https://unpkg.com/bootstrap@4.6.0/dist/css/bootstrap.min.css);
+
+.visualizer {
+  border: 2px solid black;
+}
+
+.primary-background {
+  background-color: #eeeeee;
+}
+
+.secondary-background {
+  background-color: #DDDDDD;
+}
+
+.tertiary-background {
+  background-color: #76885B;
+}
+
+.quaternary-background {
+  background-color: #627254;
+}
+
