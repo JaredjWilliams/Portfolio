@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {GitHubInfo} from "../models/GitHubInfo";
+import {GitHubInfo} from "../../models/GitHubInfo";
 
 
 @Injectable({
