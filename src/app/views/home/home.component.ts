@@ -18,20 +18,30 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.setBio()
-    this.setAvatar()
+    this.getGithubInfo()
   }
 
-  private setBio() {
-    this.homeDataService.getBio().subscribe((data: any) => {
-      this.bio = data.bio
-      this.avatar = data.avatar_url
+  private getGithubInfo() {
+    this.homeDataService.getGitHubInfo().subscribe({
+      next: (data) => {
+        this.bio = data.bio
+       this.setAvatar(data.avatar_url)
+      },
+      error: (err) => {
+        console.error(err)
+      }
     })
   }
 
-  private setAvatar() {
-    this.homeDataService.getAvatar(this.avatar).subscribe((data: any) => {
-      this.avatar = URL.createObjectURL(data)
+  private setAvatar(avatar_url: string) {
+    this.homeDataService.getAvatar(avatar_url).subscribe({
+      next: (data) => {
+        this.avatar = URL.createObjectURL(data)
+      },
+      error: (err) => {
+        console.error(err)
+      }
     })
   }
+
 }
