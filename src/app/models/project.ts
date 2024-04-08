@@ -5,7 +5,8 @@ export class project {
     public description: string,
     public image: string,
     public url: string,
-    public technologies: string[],
-    public date: string
+    public technologies: string,
+    public date: string,
+    public environments: string
   ) {}
 }

@@ -1,9 +1,6 @@
-<div class="container visualizer">
+<div class="container">
 
-<app-project-card *ngFor="let project of projects"
-  [projectImage]="project.image"
-  [projectName]="project.name"
->
+<app-project-card *ngFor="let project of projects"  [project]="project" class="m-5">
 
 </app-project-card>
 
