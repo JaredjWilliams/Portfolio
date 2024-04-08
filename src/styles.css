@@ -4,6 +4,7 @@
 
 .visualizer {
   border: 2px solid black;
+  padding: 2px;
 }
 
 .fit-screen {
