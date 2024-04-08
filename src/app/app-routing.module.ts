@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from "./views/home/home.component";
 import {AboutComponent} from "./views/about/about.component";
 import {ProjectsComponent} from "./views/projects/projects/projects.component";
-import {ResumeComponent} from "./views/resume/resume/resume.component";
+import {ResumeComponent} from "./views/resume/resume.component";
 import {ErrorComponent} from "./views/error/error.component";
 
 const routes: Routes = [
@@ -20,4 +20,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
