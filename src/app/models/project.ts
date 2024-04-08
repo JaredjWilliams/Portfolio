@@ -2,7 +2,7 @@ export class project {
 
   constructor(
     public name: string,
-    public description: string,
+    public descriptions: string[],
     public image: string,
     public url: string,
     public technologies: string,
