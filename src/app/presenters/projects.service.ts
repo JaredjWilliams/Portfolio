@@ -10,7 +10,7 @@ export class ProjectsService {
   constructor() { }
 
   getProjects(): project[] {
-    return PROJECTS
+    return PROJECTS;
   }
 
 
