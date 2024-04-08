@@ -10,8 +10,9 @@ import {HttpClientModule} from "@angular/common/http";
 import {NgOptimizedImage} from "@angular/common";
 import { AboutComponent } from './views/about/about.component';
 import { ResumeComponent } from './views/resume/resume.component';
-import { ProjectsComponent } from './views/projects/projects/projects.component';
+import { ProjectsComponent } from './views/projects/projects.component';
 import { ErrorComponent } from './views/error/error.component';
+import { ProjectCardComponent } from './views/utility_views/project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ErrorComponent } from './views/error/error.component';
     AboutComponent,
     ResumeComponent,
     ProjectsComponent,
-    ErrorComponent
+    ErrorComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,
