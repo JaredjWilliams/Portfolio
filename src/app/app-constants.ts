@@ -96,6 +96,7 @@ export const PROJECTS = [
   BRIDGE_PROJECT,
   DND_PROJECT,
   BRIDGE_ANGULAR_PROJECT
+  
 ]
 
 
