@@ -13,6 +13,8 @@ import { ResumeComponent } from './views/resume/resume.component';
 import { ProjectsComponent } from './views/projects/projects.component';
 import { ErrorComponent } from './views/error/error.component';
 import { ProjectCardComponent } from './views/utility_views/project-card/project-card.component';
+import { ContactMeComponent } from './views/contact_me/contact-me.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -24,13 +26,15 @@ import { ProjectCardComponent } from './views/utility_views/project-card/project
     ResumeComponent,
     ProjectsComponent,
     ErrorComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

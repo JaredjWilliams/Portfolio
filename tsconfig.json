@@ -17,7 +17,10 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
-    "types": ["jquery"],
+    "types": [
+      "jquery",
+      "node",
+    ],
     "module": "ES2022",
     "useDefineForClassFields": false,
     "lib": [

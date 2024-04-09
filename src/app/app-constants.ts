@@ -1,5 +1,5 @@
 export const SOCIAL_MEDIA_PROJECT_NAME = "Social Media Application"
-export const SOCIAL_MEDIA_PROJECT_IMAGE = "./assets/Social_Media_Controller.png"
+export const SOCIAL_MEDIA_PROJECT_IMAGE = "./assets/Social_Media_Project.mp4"
 export const SOCIAL_MEDIA_PROJECT_DESCRIPTIONS =[
   "Created, updated, read, and deleted social media post by assembling a RESTful webservice to update tweets stored in a postgreSQL database.",
   "Enhanced data retrieval efficiency by utilizing JPA to manage data persistence for tweets, users, and hashtags.",
@@ -43,7 +43,7 @@ export const ASSISTANT_COACH_PROJECT  = {
   environments: ASSISTANT_COACH_PROJECT_ENVIRONMENTS
 }
 
-export const DND_PROJECT_NAME = "Dungeons and Dragons Character Creator"
+export const DND_PROJECT_NAME = "DND Forum"
 export const DND_PROJECT_IMAGE = "./assets/DND_Forum.png"
 export const DND_PROJECT_DESCRIPTIONS = [
   "Developed a web application that allows users to create and manage Dungeons and Dragons characters.",
