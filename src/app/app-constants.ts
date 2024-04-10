@@ -74,7 +74,7 @@ export const BRIDGE_PROJECT_DESCRIPTIONS = [
 ]
 export const BRIDGE_PROJECT_GITHUB = "https://github.com/JaredjWilliams/Bridge_Bid_Java"
 export const BRIDGE_PROJECT_TECHNOLOGIES = "Java, Android, JUnit, Mockito"
-export const BRIDGE_PROJECT_DATE = "October 2023"
+export const BRIDGE_PROJECT_DATE = "October 2024"
 export const BRIDGE_PROJECT_ENVIRONMENTS = "Android Studio, GitHub"
 
 
@@ -107,7 +107,6 @@ export const BRIDGE_ANGULAR_PROJECT  = {
   url: BRIDGE_ANGULAR_PROJECT_GITHUB,
   technologies: BRIDGE_ANGULAR_PROJECT_TECHNOLOGIES,
   environments: BRIDGE_ANGULAR_PROJECT_ENVIRONMENTS
-
 }
 
 export const PROJECTS = [

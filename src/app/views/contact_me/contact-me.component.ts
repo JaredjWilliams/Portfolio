@@ -17,7 +17,7 @@ export class ContactMeComponent implements OnInit {
 
   public sendEmail(e: Event) {
     e.preventDefault();
-    if (!this.buttonClicked && sessionStorage.getItem('buttonClicked') === 'false') {
+
       emailjs
         .sendForm('service_c5zeskw', 'template_t64sa08', e.target as HTMLFormElement, {
           publicKey: 'X4Y-iSc6vHzEjgTvT',
@@ -33,7 +33,6 @@ export class ContactMeComponent implements OnInit {
             console.log('FAILED...', (error as EmailJSResponseStatus).text);
           },
         );
-    }
     this.submissionCount++;
   }
 
