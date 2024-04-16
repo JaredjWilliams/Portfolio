@@ -1,18 +1,31 @@
+<app-hero-section
+[bio] = "bio"
+></app-hero-section>
+<app-block-text-right-pic-left
+  [image] = "avatar"
+  [title] = "'About Me'"
+  [description] = "RESUME_TEXT"
+>
+</app-block-text-right-pic-left>
+<app-three-circle-center
+[title] = "'Development History'"
+[imageOne]= "'./assets/mungomash_logo.png'"
+[subTitleOne]= "'MungoMash LLC'"
+[subDescriptionOne]= "'I started my journey as a software developer at MungoMash LLC as ab apprentice'"
+[imageTwo]= "'./assets/republic_airways_logo.png'"
+[subTitleTwo]= "'MungoMash LLC'"
+[subDescriptionTwo]= "'I then was invited to join as a full time contractor where I developed Republic Airways crewmember mobile application '"
+[imageThree]= "'./assets/fasttracked_logo.png'"
+[subTitleThree]= "'FastTracked'"
+[subDescriptionThree]= "'Currently I am a student in the Fasttracked program with Cook Systems'"
+>
+</app-three-circle-center>
 
-<div class="container fade-in">
-  <h1 class="text-center tertiary-background rounded-corners shadow pacifico-regular">Welcome!</h1>
-  <div class="rounded-corners secondary-background d-flex flex-column justify-content-center align-items-center shadow">
-  <div>
-    <img src="{{avatar}}" alt="avatar" class="p-2 rounded-extra">
-    <h4 class="text-center">Jared Williams</h4>
-  </div>
-  <div class="d-flex flex-column justify-content-center align-items-center p-2">
-    <h5>{{bio}}</h5>
-    <div class="row p-2">
-      <a href="https://github.com/JaredjWilliams" target="_blank"><li class="fab fa-github icon m-1 p-1 text-dark"></li></a>
-      <a href="https://linkedin.com/in/jared-williams-01a393209" target="_blank"><li class="fab fa-linkedin icon m-1 p-1 text-dark"></li></a>
-      <a routerLink="/contact"><li class="fa fa-envelope icon m-1 p-1 text-dark"></li></a>
-    </div>
-  </div>
-  </div>
-</div>
+<app-block-image-span-items-arrayed
+  [title] = "'Skills'"
+  [image] = "'./assets/coding_image.png'"
+  [items] = "[]"
+>
+
+</app-block-image-span-items-arrayed>
+
