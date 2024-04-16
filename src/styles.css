@@ -5,6 +5,13 @@
 :root {
   --tertiary-color: #76885B;
   --secondary-color: #DDDDDD;
+  --running-photo: url("./assets/running_photo.jpg");
+  --mungomash-logo: url("./assets/mungomash_logo.png");
+  --coding-photo: url("./assets/coding_image.jpg");
+}
+
+.onHover:hover {
+  opacity: 50%;
 }
 
 .visualizer {

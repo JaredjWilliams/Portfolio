@@ -118,5 +118,27 @@ export const PROJECTS = [
 
 ]
 
+export const RESUME_TEXT = "I am a dedicated developer driven by a commitment for continuous learning and a passion for understanding complex systems. I am a graduate from Indiana Wesleyan University and a graduate of Fasttracked. I have previous experience benefiting existing development teams by developing new software, modernizing complex code bases, and effectively working with APIs"
+
+export const TECHNOLOGIES = [
+  "Java",
+  "Spring Boot",
+  "Spring Data JPA",
+  "PostgreSQL",
+  "SQLite",
+  "SQL",
+  "Angular",
+  "Firebase",
+  "HTML",
+  "CSS",
+  "TypeScript",
+  "React",
+  "JUnit",
+  "Mockito",
+  "Android",
+  "Git",
+  "GitHub"
+]
+
 
 

@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {HomeDataService} from "../../service/home/home-data.service";
+import {RESUME_TEXT} from "../../app-constants";
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,7 @@ export class HomeComponent implements OnInit {
 
   bio : string  = ""
   avatar : string = ""
+
 
   constructor(
     private homeDataService: HomeDataService
@@ -44,4 +46,5 @@ export class HomeComponent implements OnInit {
     })
   }
 
+  protected readonly RESUME_TEXT = RESUME_TEXT;
 }

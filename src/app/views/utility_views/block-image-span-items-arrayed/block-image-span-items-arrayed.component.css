@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+}
+
+.image {
+  background-image: var(--coding-photo);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

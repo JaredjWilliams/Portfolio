@@ -15,6 +15,10 @@ import { ErrorComponent } from './views/error/error.component';
 import { ProjectCardComponent } from './views/utility_views/project-card/project-card.component';
 import { ContactMeComponent } from './views/contact_me/contact-me.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { HeroSectionComponent } from './views/utility_views/hero-section/hero-section.component';
+import { BlockTextRightPicLeftComponent } from './views/utility_views/block-text-right-pic-left/block-text-right-pic-left.component';
+import { ThreeCircleCenterComponent } from './views/utility_views/three-circle-center/three-circle-center.component';
+import { BlockImageSpanItemsArrayedComponent } from './views/utility_views/block-image-span-items-arrayed/block-image-span-items-arrayed.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import {ReactiveFormsModule} from "@angular/forms";
     ProjectsComponent,
     ErrorComponent,
     ProjectCardComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    HeroSectionComponent,
+    BlockTextRightPicLeftComponent,
+    ThreeCircleCenterComponent,
+    BlockImageSpanItemsArrayedComponent
   ],
   imports: [
     BrowserModule,
