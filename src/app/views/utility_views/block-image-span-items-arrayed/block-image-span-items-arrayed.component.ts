@@ -11,7 +11,6 @@ export class BlockImageSpanItemsArrayedComponent {
 @Input() title: string = "";
 @Input() image: string = "";
 @Input() description: string = "";
-@Input() items: Item[] = []
+@Input()  items: string[] = [];
 
-  protected readonly TECHNOLOGIES = TECHNOLOGIES;
 }

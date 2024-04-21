@@ -1,12 +1,17 @@
 <app-hero-section
-[bio] = "bio"
-></app-hero-section>
-<app-block-text-right-pic-left
+[bio] = "bio">
+</app-hero-section>
+
+<app-block-text-pic
   [image] = "avatar"
   [title] = "'About Me'"
   [description] = "RESUME_TEXT"
+  [hasHeaderTitle]= "false"
+  [isPicRight] = "false"
 >
-</app-block-text-right-pic-left>
+
+</app-block-text-pic>
+
 <app-three-circle-center
 [title] = "'Development History'"
 [imageOne]= "'./assets/mungomash_logo.png'"
@@ -17,15 +22,35 @@
 [subDescriptionTwo]= "'I then was invited to join as a full time contractor where I developed Republic Airways crewmember mobile application '"
 [imageThree]= "'./assets/fasttracked_logo.png'"
 [subTitleThree]= "'FastTracked'"
-[subDescriptionThree]= "'Currently I am a student in the Fasttracked program with Cook Systems'"
->
+[subDescriptionThree]= "'Currently I am a student in the Fasttracked program with Cook Systems'">
 </app-three-circle-center>
 
 <app-block-image-span-items-arrayed
   [title] = "'Skills'"
   [image] = "'./assets/coding_image.png'"
-  [items] = "[]"
+  [items] = "TECHNOLOGIES">
+</app-block-image-span-items-arrayed>
+
+<app-block-text-pic
+  [image] = "'./assets/Coach_Foss_and_Me.jpg'"
+  [title] = "'Running'"
+  [description] = "'In my free time I enjoy running. In college I ran cross country and track' +
+   ' where I specialized in the 5k, but also excelled in anything over 3k meters. In my time at school I was blessed to be apart of a team that won' +
+    ' the conference championship in cross country 3 times in a row, and placed 14th, 8th, and 2nd in the Cross Country National Championship.'"
+  [hasHeaderTitle]= "true"
+  [isPicRight] = "true"
+  [headingTitle]="'Hobbies and Interests'"
 >
 
-</app-block-image-span-items-arrayed>
+</app-block-text-pic>
+
+<app-block-text-pic
+  [image] = "'./assets/bookshelf.jpg'"
+  [title] = "'Reading'"
+  [description] = "'In my free time I enjoy running. In college I ran cross country and track' +
+   ' where I specialized in the 5k, but also excelled in anything over 3k meters. In my time at school I was blessed to be apart of a team that won' +
+    ' the conference championship in cross country 3 times in a row, and placed 14th, 8th, and 2nd in the Cross Country National Championship.'"
+>
+
+</app-block-text-pic>
 

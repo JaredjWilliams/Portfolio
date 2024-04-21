@@ -1,14 +1,13 @@
-<div class="d-flex flex-column align-items-center justify-content-center image">
+<div class="d-flex flex-column align-items-center justify-content-center image p-5">
   <div class="flex-column align-items-center justify-content-center">
     <h2 class="pacifico-regular p-3 text-white">{{title}}</h2>
     <li class="fab fa-angular"></li>
     <p>{{description}}</p>
   </div>
   <div class="grid">
-    <div *ngFor="let item of TECHNOLOGIES">
-      <div class="rounded-corners text-white tertiary-background p-2 d-flex align-item-center justify-content-center">{{item}}</div>
+    <div *ngFor="let item of items">
+      <div class="rounded-corners text-white tertiary-background p-2 d-flex align-item-center justify-content-center shadow">{{item}}</div>
     </div>
-
     </div>
 </div>
 

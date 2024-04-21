@@ -1,10 +1,13 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
 }
 
 .image {
   background-image: var(--coding-photo);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+

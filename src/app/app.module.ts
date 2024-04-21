@@ -16,9 +16,9 @@ import { ProjectCardComponent } from './views/utility_views/project-card/project
 import { ContactMeComponent } from './views/contact_me/contact-me.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import { HeroSectionComponent } from './views/utility_views/hero-section/hero-section.component';
-import { BlockTextRightPicLeftComponent } from './views/utility_views/block-text-right-pic-left/block-text-right-pic-left.component';
 import { ThreeCircleCenterComponent } from './views/utility_views/three-circle-center/three-circle-center.component';
 import { BlockImageSpanItemsArrayedComponent } from './views/utility_views/block-image-span-items-arrayed/block-image-span-items-arrayed.component';
+import { BlockTextPicComponent } from './views/utility_views/block-text-pic/block-text-pic.component';
 
 @NgModule({
   declarations: [
@@ -33,9 +33,9 @@ import { BlockImageSpanItemsArrayedComponent } from './views/utility_views/block
     ProjectCardComponent,
     ContactMeComponent,
     HeroSectionComponent,
-    BlockTextRightPicLeftComponent,
     ThreeCircleCenterComponent,
-    BlockImageSpanItemsArrayedComponent
+    BlockImageSpanItemsArrayedComponent,
+    BlockTextPicComponent,
   ],
   imports: [
     BrowserModule,
